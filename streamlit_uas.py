@@ -9,12 +9,12 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 
 MODEL_PATHS = {
-    "Random Forest": BASE_DIR / "artifacts" / "random_forest_model.pkl",
-    "XGBoost":       BASE_DIR / "artifacts" / "xgboost_model.pkl",
-    "Decision Tree": BASE_DIR / "artifacts" / "decision_tree_model.pkl",
+    "Random Forest": BASE_DIR / "random_forest_model.pkl",
+    "XGBoost":       BASE_DIR / "xgboost_model.pkl",
+    "Decision Tree": BASE_DIR / "decision_tree_model.pkl",
 }
 
-PREPROCESSOR_PATH = BASE_DIR / "artifacts" / "preprocessor.pkl"
+PREPROCESSOR_PATH = BASE_DIR / "preprocessor.pkl"
 
 SCORE_COLOR = {
     "Good":     "#2ecc71",
